@@ -20,13 +20,13 @@
 
 ---
 
-## 🎯 Focus
+##  Focus
 
 | Area | What I work on |
 |---|---|
-| 🤖 **Humanoid & Physical AI** | Egocentric perception for humanoid manipulation, kinematics-aware vision, sim-to-real data generation |
-| 🧠 **VLA & Multimodal** | Vision-Language-Action pipelines, multimodal retrieval (SigLIP / OpenCLIP), speech + vision + language systems |
-| ⚙️ **Systems** | Real-time inference serving, streaming pipelines, distributed data infrastructure, edge deployment |
+|  **Humanoid & Physical AI** | Egocentric perception for humanoid manipulation, kinematics-aware vision, sim-to-real data generation |
+|  **VLA & Multimodal** | Vision-Language-Action pipelines, multimodal retrieval (SigLIP / OpenCLIP), speech + vision + language systems |
+|  **Systems** | Real-time inference serving, streaming pipelines, distributed data infrastructure, edge deployment |
 
 ```mermaid
 flowchart LR
@@ -40,9 +40,9 @@ flowchart LR
 
 ---
 
-## 🔬 Featured Work
+##  Featured Work
 
-### 🦾 SelfBodyGS — Egocentric 3D Vision for Humanoid Manipulation
+###  SelfBodyGS — Egocentric 3D Vision for Humanoid Manipulation
 *VinDynamics · 2026*
 - Designed a **feed-forward 3D Gaussian Splatting** framework that resolves dynamic **egocentric self-occlusion** in humanoid manipulation via real-time **proprioceptive conditioning**.
 - Built a sub-millisecond **Pinocchio-based GPU rasterization** pipeline that produces kinematic visibility fields aligned with head stereo vision, reaching **IoU ≥ 0.98** against simulator ground truth.
@@ -51,7 +51,7 @@ flowchart LR
 
 `PyTorch` `gsplat` `Pinocchio` `Genesis` `OpenCV` `ONNX`
 
-### 🎙️ Real-Time Voice Infrastructure
+###  Real-Time Voice Infrastructure
 *Taureau AI · Apr–Jun 2026*
 - Decoupled transport from business logic using **WebRTC (UDP/PCM)** and **WebSockets** for resilient bi-directional streaming with interruption handling.
 - Scaled LLM serving with **vLLM** (PagedAttention, continuous batching) to cut Time-to-First-Byte.
@@ -60,28 +60,28 @@ flowchart LR
 
 `vLLM` `Whisper` `WebRTC` `FastAPI` `LangGraph` `Qdrant`
 
-### 🗣️ Speech Intelligence & Code-Switching
+###  Speech Intelligence & Code-Switching
 *VALSEA · Singapore (Remote) · 2026*
 - Researched and integrated a **Hybrid Language-ID module** alongside core ASR to resolve acoustic ambiguity in heavy code-switching (Singlish, Vietnamese-English).
 - Integrated an enterprise ASR **post-correction layer** with immutable vocabulary snapshots, atomic CAS publication, and fail-closed tenant authorization.
 - Designed **differentiable, attention-guided correction layers** that penalize phoneme/token confusion to reduce WER on noisy streaming audio.
 
-### 🚗 CRAV-14 — Autonomous Driving Scene Search
+###  CRAV-14 — Autonomous Driving Scene Search
 *AI in Action, VinUniversity · Aug 2026*
 - Multimodal indexing platform for large AV video datasets with **natural-language scene search**.
 - GPU-accelerated keyframe embedding (**SigLIP / OpenCLIP**), hybrid vector + metadata retrieval in **Qdrant**, and **LangGraph** agents translating queries into structured searches.
 
-### 🏦 RegWatch — Hybrid Knowledge RAG for Compliance
+###  RegWatch — Hybrid Knowledge RAG for Compliance
 *Hack CX in Banking Together · Top 24 Finalist*
 - Combined **Neo4j** (entity-relationship graphs) with **Qdrant** (semantic retrieval) and deterministic **LangGraph** reasoning for multi-step legal analysis, deployed on **AWS / Kubernetes**.
 
-### 🏗️ Open-Source Lakehouse Platform
+###  Open-Source Lakehouse Platform
 *Team Lead · Dataflow 2026 · Top 10 Finalist*
 - Distributed pipeline over **590K+ records** with **Spark + Iceberg** (ACID, time-travel) and a **ClickHouse** low-latency serving layer with one-command deployment.
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 <p>
   <img src="https://skillicons.dev/icons?i=python,pytorch,cpp,java,opencv,fastapi,docker,kubernetes,linux,redis,aws,spark,github,git&perline=14" />
@@ -97,14 +97,14 @@ flowchart LR
 ---
 
 
-## 🏆 Recognition
+##  Recognition
 
-- 🥇 **Top 10 Finalist** — Dataflow 2026 (HAMIC HUS)
-- 🥇 **Top 24 Finalist** — Hack CX in Banking Together 2026 (HUST)
-- 🥇 **Top 30 Finalist** — RMIT Business Analytics Champions 2025
-- 🌏 **Top 10 Global Finalist** — Highschool Business Case Competition 2024
+- **Top 10 Finalist** — Dataflow 2026 (HAMIC HUS)
+- **Top 24 Finalist** — Hack CX in Banking Together 2026 (HUST)
+- **Top 30 Finalist** — RMIT Business Analytics Champions 2025
+- **Top 10 Global Finalist** — Highschool Business Case Competition 2024
 
-## 🎓 Education
+## Education
 
 **VNU University of Engineering and Technology (UET-VNU)** — B.Sc. Information Systems · GPA 3.3/4.0 · IELTS 7.5
 
