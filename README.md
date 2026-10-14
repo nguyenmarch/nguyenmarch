@@ -119,7 +119,6 @@ flowchart LR
 <p align="center">
   <i>"If it can't run in real time on real hardware, it's still a demo."</i>
 </p>
-
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=nguyenmarch&label=Profile+views&color=10b981&style=flat" />
+  <img src="https://visitor-badge.laobi.icu/badge?page_id=nguyenmarch.nguyenmarch&left_text=Profile%20views&right_color=%2310b981" alt="Profile views" />
 </p>
